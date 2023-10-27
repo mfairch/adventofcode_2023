@@ -23,18 +23,12 @@ We will be using Google Collab for a managed code environment.
 
 ##### Repo
 1. Fork this repo!
-    + copy the new repos name 
-    + `github.com/lord-skinner/adventofcode_2023` would be `lord-skinner/adventofcode_2023`
-2. Log into [Google Collab](https://colab.research.google.com/)
-3. Click the Github Tab in the Explorer
-4. In the field labeled `Enter a GitHub URL or search by organization or user` paste your repos name.
-5. Open the Jupyter Notebook file `main.ipynb`.
-6. Click File > Save A Copy in Github  (this allows for you to save changes back in Github)
-7. On the left bar, click the file icon, then the first icon under `Files` with the up arrow on it.
-8. Navigate to the file on your local machine and upload it.
-9. Get started solving the puzzle!
+2. In your forked repo click on `main.ipynb`, then click Open in Colab.
+3. On the left bar, click the file icon, then the first icon under `Files` with the up arrow on it.
+4. Navigate to the file on your local machine and upload it.
+5. Get started solving the puzzle!
 
-A hint to get started, the text file will be available at path `/content/<your_file>.txt` and can be referenced in you code like: 
+A hint to get started, the text file will be available at path `/content/<your_file>.txt` and can be referenced in code something like this: 
 
 ```python
 with open("/content/day1.txt", "r") as input:
@@ -45,20 +39,21 @@ This will read the first 100 characters in the file and print them to the consol
 
 ## Rules
 
-1. You many only use [Python 3.10](https://docs.python.org/3.10/) or [Standard Python Libraries](https://docs.python.org/3.10/library/index.html), no Python Packages are allowed!
-2. No AI or GenAI, it will help you be faster at coding once you are proficient, but really slows down the learning process for those working to become proficient.
-3. For a challenge to be considered `complete` you must have the code and solution in your forked repo.
-4. Fastest Runtime Challenge
-    + The hardest challenge completed 
-    + More than 1 answer submitted
+- You many only use [Python 3](https://docs.python.org/3.10/) and [Standard Python Libraries](https://docs.python.org/3.10/library/index.html), no Python Packages are allowed!
+- No AI or GenAI, it will help you be faster at coding once you are proficient, but really slows down the learning process for those working to become proficient.
+- For a challenge to be considered `complete` you must have the code and solution in your forked repo.
+  - File > Save A Copy in Github  (this saves changes back in Github on your forked branch).
+- Fastest Runtime Challenge
+  - The hardest challenge completed 
+  - More than 1 answer submitted
 
 ## Prizes
-There will be prizes along the way!
+There will be prizes!
 
 - Most Challenges Completed
 - Most Efficient Code
  - Fewest Lines
  - Fastest Runtime
 
-# Bonus Challenge 
-Pick any tool you are familiar with, anything from a calculator to Excel to SQL to Mulesoft and solve the problem once you've done it on Python.
+# Bonus Challenge
+Pick any tool you are familiar with, anything from a calculator to Excel to SQL to Mulesoft and try to solve the problem once you've done it on Python.
