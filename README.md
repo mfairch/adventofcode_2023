@@ -28,7 +28,7 @@ We will be using Google Collab for a managed code environment.
 2. Log into [Google Collab](https://colab.research.google.com/)
 3. Click the Github Tab in the Explorer
 4. In the field labeled `Enter a GitHub URL or search by organization or user` paste your repos name.
-5. Open the Jupyter Notebook file for the day you are working on.
+5. Open the Jupyter Notebook file `main.ipynb`.
 6. Click File > Save A Copy in Github  (this allows for you to save changes back in Github)
 7. On the left bar, click the file icon, then the first icon under `Files` with the up arrow on it.
 8. Navigate to the file on your local machine and upload it.
